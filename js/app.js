@@ -23,12 +23,12 @@ times.addEventListener('click', function(){
 
 function sendEmail(){
   
-  // let sender_email=document.getElementById("sender_email").value;
-  // let sender_subject=document.getElementById("sender_subject").value;
-  // let sender_message=document.getElementById("sender_message").value;
-  let sender_email='Anurag@gmail.com';
-  let sender_subject='time pass';
-  let sender_message='sample body';
+  let sender_email=document.getElementById("sender_email").value;
+  let sender_subject=document.getElementById("sender_subject").value;
+  let sender_message=document.getElementById("sender_message").value;
+  // let sender_email='Anurag@gmail.com';
+  // let sender_subject='time pass';
+  // let sender_message='sample body';
   console.log(sender_email,sender_subject,sender_message);
   event.preventDefault(); 
     Email.send({
